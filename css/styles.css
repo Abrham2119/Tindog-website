@@ -9,8 +9,12 @@
 .heading1{
     font-family: 'Montserrat-black', sans-serif;
     font-size: 3rem;
+    font-weight: bold;
     line-height: 1.5;
-}
+    
+} 
+.container-fluid{
+    padding: 3% 15%;
 
 
 
