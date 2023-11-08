@@ -1,13 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+   
+    
+}
 #title{
     background-color: #ff4c68;
-}
-
-.navbar-brand{
-    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
 }
 
 .heading1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-black', sans-serif;
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -20,6 +25,21 @@
 .fa-apple{
 padding-right: 6px;
 }
+
+    /* navbar */
+.navbar{
+        padding: 0.5rem 1rem 2.5rem;
+    }
+.navbar-brand{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .nav-item{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
 
 
 
