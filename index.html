@@ -4,26 +4,26 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-    
-  
-        <!-- google fonts -->
+
+
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu+Condensed&display=swap"
     rel="stylesheet">
-    
-    
-    
-        <!-- css stylesheet -->
+
+
+
+  <!-- css stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css">
 
 
-        <!-- icon -->
+  <!-- icon -->
   <script src="https://kit.fontawesome.com/bdb15ef9b3.js" crossorigin="anonymous"></script>
 
 
-        <!-- bootstrap script -->
+  <!-- bootstrap script -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -58,8 +58,8 @@
               <a class="nav-link nav-link1" href="">Pricing</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle nav-link1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle nav-link1" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Download
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -78,8 +78,10 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <h1 class="heading1">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg Download-button"><i class="fa-brands fa-apple" style="color: #ffffff;"></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg Download-button"><i class="fa-brands fa-google-play" style="color: #fafafa;"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg Download-button"><i class="fa-brands fa-apple"
+              style="color: #ffffff;"></i>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg Download-button"><i class="fa-brands fa-google-play"
+              style="color: #fafafa;"></i> Download</button>
         </div>
         <div class="col-lg-6 col-md-12">
           <img src="images/iphone6.png" alt="iphone-mockup" class="title-image">
@@ -93,41 +95,74 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-heart "></i>
+        <h3 class="heading3">Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-bullseye"></i>
+        <h3 class="heading3">Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-square-check fb-lg"></i>
+        <h3 class="heading3">Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
 
   </section>
+
+
+
 
 
   <!-- Testimonials -->
 
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+  
+    <div id="testimonial_Slide" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="heading2">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.
+            Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="heading2">My dog used to be so lonely, but with TinDog's help, they've found the love of their
+            life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+  
+        <!-- testimonial buttons -->
+        <a class="carousel-control-prev" href="#testimonial_Slide" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial_Slide" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  
   </section>
+
+
+  
 
 
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
