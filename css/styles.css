@@ -132,3 +132,17 @@ body{
     margin: 20px 20px 50px ;
 
 }
+
+
+
+/* pricing section */
+
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-colomn{
+    padding: 3% 2%;
+    text-align: center;
+}
