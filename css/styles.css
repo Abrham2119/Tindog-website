@@ -143,7 +143,11 @@ body{
 }
 
 .card{
-    border-radius: 100%;
+    border-radius: 15%;
+}
+.card-header{
+    border-radius: 15%;
+    
 }
 
 .pricing-colomn{
