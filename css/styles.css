@@ -143,10 +143,11 @@ body{
 }
 
 .card{
-    border-radius: 15%;
+    border-radius: 10%;
+    overflow: hidden;
 }
 .card-header{
-    border-radius: 15%;
+        
     
 }
 
