@@ -142,6 +142,10 @@ body{
     padding: 100px;
 }
 
+.card{
+    border-radius: %;
+}
+
 .pricing-colomn{
     padding: 3% 2%;
     text-align: center;
