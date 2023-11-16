@@ -6,10 +6,7 @@ body{
    
     
 }
-#title{
-    background-color: #ff4c68;
-    color: white;
-}
+
 
 .heading1 {
     font-family: 'Montserrat', sans-serif;
@@ -30,9 +27,19 @@ body{
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
+
+
+
+
+/* title section */
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
 
 
 /* navigation bar*/
@@ -72,9 +79,10 @@ body{
 
 /* title image */
 .title-image{
-    width: 60%;
+    width: 70%;
     transform: rotate(25deg);
-    
+    position: absolute;
+    right: 7%;
 }
 
 
@@ -83,6 +91,10 @@ body{
 /* features section */
 #features{
     padding: 7% 15%;
+    position: relative;  
+    z-index: 1;
+    background-color: white;
+
 }
 
 .feature-box{
