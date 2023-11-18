@@ -3,27 +3,13 @@ body{
     color: white;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
    
     
 }
-
-
-.heading1 {
+h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 3.8rem;
-    font-weight: 700;
-    line-height: 1.3;
 
-}
-.heading2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-.heading3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
 }
 
 .container-fluid {
@@ -35,12 +21,10 @@ body{
 
 
 /* title section */
-
 #title{
     background-color: #ff4c68;
     color: white;
 }
-
 
 /* navigation bar*/
 .navbar{
@@ -62,8 +46,12 @@ body{
     font-size: 1.2rem;
     font-family: 'Montserrat-light', sans-serif;
 }
-
-
+.title-text {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
 
 /* download buttons */
 
@@ -74,8 +62,6 @@ body{
 .fa-apple {
     padding-right: 6px;
 }
-
-
 
 /* title image */
 .title-image{
@@ -88,19 +74,22 @@ body{
 
 
 
+
 /* features section */
 #features{
     padding: 7% 15%;
     position: relative;  
     z-index: 1;
     background-color: white;
-
 }
 
 .feature-box{
-    text-align: center;
-    padding: 5%;
-
+    
+    padding: 5%;  
+}
+.feature-title{
+    font-weight: bold;
+    font-size: 3.5rem;
 }
 .icon{
     font-size: 80px;
@@ -116,26 +105,35 @@ body{
 
 
 
-
 /* Testimonials section */
 
 #testimonials{    
    background-color: #ef8172;
-   text-align: center;
+   
    color: #fff;
 }
 .carousel-item{
     padding: 7% 15%;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
+
+
+
+
+
+/* press sectioin */
 #press{
 
     background-color: #ef8172;
-    text-align: center;
+    
     padding-bottom:5% ;
 }
  
@@ -147,30 +145,81 @@ body{
 
 
 
+
+
 /* pricing section */
 
 
 #pricing{
     padding: 100px;
 }
+.section-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;    
+}
 
 .card{
     border-radius: 10%;
     overflow: hidden;
 }
-.card-header{
-        
-    
-}
-
 .pricing-colomn{
     padding: 3% 2%;
-    text-align: center;
+    
 }
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    
+    padding: 7% 15%;
+
+}
+.cta-heading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.Download-button2{
+    color: black;
+}
+
+
+
+
+
+
+/* footer section */
+
+#footer{
+    padding: 7% 15%;
+    
+    
+}
+.social-icon {
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 990px){
     #title{
-        text-align: center;
+        text-align: center;        
     }
     .title-image{
         transform: rotate(0);
